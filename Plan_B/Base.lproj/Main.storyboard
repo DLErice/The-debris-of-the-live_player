@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ILX-78-mSL">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" id="jCZ-bG-aHi" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Fud-KJ-jVZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="Kw7-fs-vPe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oFK-wN-N5H">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i07-Af-l4W">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Kw7-fs-vPe" firstAttribute="top" secondItem="i07-Af-l4W" secondAttribute="bottom" id="3Op-YJ-Xjc"/>
+                            <constraint firstItem="i07-Af-l4W" firstAttribute="top" secondItem="Fud-KJ-jVZ" secondAttribute="bottom" id="6kJ-Yj-BEn"/>
+                            <constraint firstAttribute="trailing" secondItem="i07-Af-l4W" secondAttribute="trailing" id="UcL-eK-K1w"/>
+                            <constraint firstItem="i07-Af-l4W" firstAttribute="leading" secondItem="oFK-wN-N5H" secondAttribute="leading" id="ZOD-a2-gqN"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="alpaView" destination="i07-Af-l4W" id="2Kh-L2-lus"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tot-vo-6yd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305.5" y="540.5"/>
+        </scene>
+    </scenes>
+</document>
